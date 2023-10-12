@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2>calc</h2>
+        <div class="toggle">
+          <p id="theme">THEME</p>
+          <div class="theme-div">
+            <span>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            </span>
+            <div class="toggle-btn">
+              
+                <input type="radio" checked="checked" name="radio" id="first">
+                <input type="radio" checked="checked" name="radio" id="second">
+                <input type="radio" checked="checked" name="radio" id="third">
+                <div class ="ball">
+
+                </div>
+          
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="calc-main">
+        <div class="calc" type="text">0</div>
+      <div class="grid-container edit">
+          <button class="seven">7</button>
+          <button class="eight">8</button>
+          <button class="nine">9</button>  
+          <button class="remove" data-action="delete">DEL</button>
+          <button class="four">4</button>
+          <button class="five">5</button>
+          <button class="six">6</button>
+          <button class="add key--operator" data-action="add">+</button>
+          <button class="one">1</button>
+          <button class="two">2</button>
+          <button class="three">3</button>
+          <button class="minus key--operator" data-action="subtract">-</button>
+          <button class="decimal" data-action="decimal">.</button>
+          <button class="zero">0</button>
+          <button class="divide key--operator" data-action="divide">/</button>
+          <button class="multiply key--operator" data-action="multiply">x</button>
+          <button class="reset" data-action="reset">RESET</button>
+          <button id="last" data-action="calculate" class="key--equal">=</button>
+      </div>
+    </section>
+    </main>
+    <script src="index.js" async defer></script>
+    <script src="toggle.js" async defer></script>
+  </body>
+</html>
