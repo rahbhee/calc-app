@@ -108,6 +108,9 @@ input:after{
     max-width: 100%;
     background-color: hsl(224, 36%, 15%);
     border-radius: .5rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold
 }
 .calc-main{
     display:grid;
@@ -139,6 +142,13 @@ input:after{
 button{
     border: none;
     font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.5 !important;
+}
+#ball:hover{
+   cursor: pointer;
 }
 .grid-container button:last-child {
     grid-column: 3 /  5;
@@ -167,26 +177,8 @@ button{
     color: #fff;
 }
 
-/*.toggle{
-    position: relative;
-    height: 130px;
-    width: 300px;
-    border-radius: .5rem;
-    background-color: #fff;
-    cursor: pointer;
-}
-.toggle::before{
-    content: "";
-    position: absolute;
-    height: 110px;
-    width: 110px;
-    background-color: black;
-    border-radius: 50%;
-    top: 50%;
-    left: 14px;
-    transform: translateY(-50%);
-    transition: all 0.3s ease-in-out;
-}
-.toggle.active::before{
-    left: calc(100% - 110px - 14px);
-}
+button:active {
+    background-color: #ff4500; /* Active state background color */
+    color: #fff; /* Active state text color */
+  }
+ 

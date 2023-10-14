@@ -33,8 +33,6 @@ The designs were created to the following widths:
 - Very dark grayish blue: hsl(221, 14%, 31%)
 - White: hsl(0, 0%, 100%)
 
-### Theme 2
-
 #### Backgrounds
 
 - Light gray (main background): hsl(0, 0%, 90%)
