@@ -193,4 +193,11 @@ button:active {
     color: #fff; /* Active state text color */
   }
  
-  
+  @media (min-width: 375px) and (max-width: 768px) {
+    .calc{
+        width: 90%;
+    }
+    .grid-container button{
+        padding: .4rem 1rem;
+    }
+  }
