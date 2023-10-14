@@ -20,7 +20,7 @@ const display = document.querySelector('.calc');
 keys.addEventListener('click', e => {
   if (e.target.matches('button')){
 ;
-e.target.style.opacity = '0.3';
+e.target.style.opacity = '0.4';
 
 
 setTimeout(() => {
