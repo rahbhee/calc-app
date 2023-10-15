@@ -196,10 +196,10 @@ button:active {
     width: 90%;
    }
    .grid-container{
-    padding: .4rem 3rem;
+    padding: .7rem 1rem;
    }
    .toggle-btn{
-    margin-right: 1rem;
+    margin-right: 2rem;
     padding: 0rem;
    }
   }
