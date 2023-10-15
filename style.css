@@ -199,11 +199,11 @@ button:active {
     padding: .4rem;
    }
    .toggle-btn{
-    margin-right: 1rem;
-    padding: 0rem;
+    margin-right: .4rem;
+    padding: .3rem;
    }
    .remove{
-    font-size: .8rem !important;
+    
    }
   }
  
