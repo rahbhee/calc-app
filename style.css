@@ -195,7 +195,7 @@ button:active {
    .calc{
     width: 90%;
    }
-   .grid-container{
+   .grid-container button{
     padding: .7rem 1rem;
    }
    .toggle-btn{
